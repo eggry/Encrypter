@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
 [assembly: AssemblyTitle("Encrypter")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("作者：2015.36 RDL(Eggry Ran)	Email:eggry@live.cn	Github:github.com/eggry/encrypter	本程序使用TEA32轮加密算法，向信息安全工作者们致敬！orz")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Encrypter")]
