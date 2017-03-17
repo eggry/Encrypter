@@ -54,7 +54,7 @@
             this.LstFile1.HideSelection = false;
             this.LstFile1.Location = new System.Drawing.Point(12, 12);
             this.LstFile1.Name = "LstFile1";
-            this.LstFile1.Size = new System.Drawing.Size(606, 200);
+            this.LstFile1.Size = new System.Drawing.Size(300, 200);
             this.LstFile1.TabIndex = 14;
             this.LstFile1.UseCompatibleStateImageBehavior = false;
             this.LstFile1.View = System.Windows.Forms.View.Details;
@@ -192,7 +192,7 @@
             this.Controls.Add(this.LstFile2);
             this.Controls.Add(this.LstFile1);
             this.Name = "FrmDecrypter";
-            this.Text = "FrmDecrypter";
+            this.Text = "解密";
             this.Load += new System.EventHandler(this.FrmDecrypter_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

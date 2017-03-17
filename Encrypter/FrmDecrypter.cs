@@ -111,7 +111,7 @@ namespace Encrypter
             {
                 fin.Read(tempin, 0, 8);//读
                 byte[] tempout = Decrypt(tempin, Encoding.Default.GetBytes(key));//解密
-
+                
                 fout.Write(tempout, 0, tempout.Length);//输出
             }
             fout.SetLength(len);//截去多余空格
